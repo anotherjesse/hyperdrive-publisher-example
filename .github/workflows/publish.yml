@@ -27,4 +27,4 @@ jobs:
           node-version: '12'
       # Runs a single command using the runners shell
       - name: Run Publisher
-        run: npx hyperdrive-publisher sync ${{ secrets.PUBLISHER_KEY }}
+        run: npx hyperdrive-publisher sync ${{ secrets.PUBLISHER_KEY }} build/
